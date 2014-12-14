@@ -16,7 +16,7 @@ In order to run the script you have to repeat the following steps:
 - Download the run_analysis.R script from this repository.
 - Extract the files activity_labels.txt, features.txt, subject_test.txt, subject_train.txt, x_train.txt, y_train.txt, X_test.txt, y_test.txt in the same directory you download the script 
 - verify that your current working directory is set to the directory that contains the run_analysis.R script
-- execute run_analysis.R.
+- run run_analysis.R.
 
 The script produce the tidy.txt file for the data set request.
 
