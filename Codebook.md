@@ -2,19 +2,19 @@
 
 The tidy dataset produced by the script consists of the following variable:
 
--ActivityCode is an integer value  that identifies each activity of the six activity Its range is from 1 to 30. 
--ActivityName is  the  descriptive  the activity performed. In the activity_labels.txt file for each "ActivityCode" is defined the corresponding "ActivityName"
--SubjectId  is a integer value that identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. ( as defined in the UCI HAR Dataset\readme.txt )
+ -ActivityCode is an integer value  that identifies each activity of the six activity Its range is from 1 to 30. 
+ -ActivityName is  the  descriptive  the activity performed. In the activity_labels.txt file for each "ActivityCode" is defined the corresponding "ActivityName"
+ -SubjectId  is a integer value that identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. ( as defined in the UCI HAR Dataset\readme.txt )
 
 *For the following variable in the output data set i calculate the means of the corresponding smartphone accelerometer data fields (please refer to the UCI Human Activity Recognition documentation for more details ) . Rows are grouped by the first ther columns.*
--tBodyAcc-mean()-X
--tBodyAcc-mean()-Y 
--tBodyAcc-mean()-Z
--tBodyAcc-std()-X
--tBodyAcc-std()-Y
--tBodyAcc-std()-Z
--tGravityAcc-mean()-X 
--tGravityAcc-mean()-Y
+ -tBodyAcc-mean()-X
+ -tBodyAcc-mean()-Y 
+ -tBodyAcc-mean()-Z
+ -tBodyAcc-std()-X
+ -tBodyAcc-std()-Y
+ -tBodyAcc-std()-Z
+ -tGravityAcc-mean()-X 
+ -tGravityAcc-mean()-Y
 -tGravityAcc-mean()-Z
 -tGravityAcc-std()-X
 -tGravityAcc-std()-Y
