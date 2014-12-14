@@ -6,7 +6,7 @@ The tidy dataset produced by the script consists of the following variable:
 - ActivityName is  the  descriptive  the activity performed. In the activity_labels.txt file for each "ActivityCode" is defined the corresponding "ActivityName"
 - SubjectId  is a integer value that identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. ( as defined in the UCI HAR Dataset\readme.txt )
 
-*For the following variables in the output data set i calculate the means of the corresponding smartphone accelerometer data fields (please refer to the UCI Human Activity Recognition documentation for more details ) . Rows are grouped by the first ther columns as request in point 5 : creates a second, independent tidy data set with the average of each variable for each activity and each subject.*
+*For the following variables in the output data set i calculate the means of the corresponding smartphone accelerometer data fields (please refer to the UCI Human Activity Recognition documentation for more details i.e. features_info.txt ) . Rows are grouped by the first ther columns as request in point 5 : creates a second, independent tidy data set with the average of each variable for each activity and each subject.*
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y 
 - tBodyAcc-mean()-Z
