@@ -23,27 +23,27 @@ The script produce the tidy.txt file for the data set request.
 ## Summary of the Steps Performed by the script
 
 ###Step1 
-load features
+create a data set for features
 ###Step2
-load activity add column names for activity
+create a data set for  activities and  add column names for activity
 ###Step 3
-load x train add column name for x_train and X_test
+create 2 data sets one  for  x_train  and the second for and X_test and add column names to the two objects
 ###Step 4
 filter columns only for mean and std for x_test and x_train
 ###Step 5 
-load y_train and y_test and add column names
+create 2 data sets y_train and y_test and add column names
 ###Step 6
-load subject_train subject_test and add column names
+create 2 data sets subject_train subject_test and add column names
 ###Step 7 
-create complete  dataframe for test 
+create complete  dataframe for test cbind(subject_test,y_test,x_test)
 ###Step 8 
-create complete dataframe for train 
+create complete dataframe for train  cbind(subject_train,y_train,x_train)
 ###Step 9
 combine the test and train dataframe
 ###Step 10
-add activity lables to the complete df dtaframe
+add activity lables to the complete data frame defined in the previous step
 ###Step11
-calculate the values for the column request
+calculate the values for the columns request 
 ###Step 12
 write the tidy.txt file
 
